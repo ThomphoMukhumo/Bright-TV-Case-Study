@@ -1,12 +1,7 @@
 # BrightTV Viewership Analysis
-
-> ## Understanding User Behaviour & Growth Opportunities prepared for the CEO
-> ----
-
-## 📌 Overview of the Case Study
-
+AIM: Understanding User Behaviour & Growth Opportunities prepared for the CEO
+Overview of the Case Study:
 BrightTV is a streaming/TV platform looking to grow its subscription base. As the data analyst, the brief was to:
-
 1. Profile **who** is watching, **where** they live, and **when** they watch.
 2. Identify **what drives consumption** (channels, time-of-day, demographics).
 3. Diagnose **low-consumption days** and propose content fixes.
@@ -16,7 +11,7 @@ The dataset covered **session-level viewership from January – April 2016** acr
 
 ---
 
-## 🛠️ Tools Used
+## Tools Used
 
 | Stage | Tool | Purpose |
 |-------|------|---------|
@@ -32,7 +27,7 @@ The dataset covered **session-level viewership from January – April 2016** acr
 
 ---
 
-## 🏗️ Architecture & Data Flow
+## Architecture & Data Flow
 
 The end-to-end pipeline: **Excel → CSV → SQL ETL → Databricks → Power BI/ PowerPoint → GitHub**.
 
@@ -57,7 +52,7 @@ How each raw column from the source Excel was transformed into analytical featur
 
 ---
 
-## 🗓️ Project Timeline (1 Week)
+## Project Timeline (1 Week)
 
 The case study was executed across five phases over a single week:
 
@@ -95,7 +90,7 @@ Synthesised everything into a **CEO-ready deck**: dataset → user trends → co
 
 ---
 
-## 📊 Dataset Overview
+## Dataset Overview
 
 | Metric | Value |
 |---|---|
@@ -149,7 +144,7 @@ Synthesised everything into a **CEO-ready deck**: dataset → user trends → co
 
 ---
 
-## ✅ Summary — What Was Done & What Was Found
+## Summary — What Was Done & What Was Found
 
 **What was done:**
 - Planned the project in **Miro** (flowchart + Gantt).
