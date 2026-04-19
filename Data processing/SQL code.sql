@@ -4,6 +4,7 @@ p.Channel2,
 from_utc_timestamp(p.RecordDate2, 'Africa/Johannesburg') AS LocalDateTime,
       DATE_FORMAT(LocalDateTime, 'yyyy-MM-dd') AS Date,
     DATE_FORMAT(LocalDateTime, 'HH:mm:ss') AS Time,
+    DAYNAME(LocalDateTime) AS Day_Name, 
 CASE
 WHEN DAYOFWEEK(LocalDateTime) IN (1, 7) THEN 'Weekend'
 ELSE 'Weekday'
@@ -49,4 +50,5 @@ from_utc_timestamp(p.RecordDate2, 'Africa/Johannesburg') AS LocalDateTime
 FROM workspace.default.viewership AS p
 LEFT JOIN workspace.default.user_profile AS q
 ON p.UserID0 = q.UserID;
+
 
