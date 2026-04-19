@@ -1,13 +1,7 @@
 # BrightTV Viewership Analysis
 
-> **Case Study · 2016** — Understanding User Behaviour & Growth Opportunities
-> *Viewership analytics, consumption drivers, and CVM growth recommendations.*
-
-**Prepared for:** The CEO
-**Author:** Thompho Mukhumo
-**Duration:** 1 week (end-to-end)
-
----
+> ## Understanding User Behaviour & Growth Opportunities prepared for the CEO
+> ----
 
 ## 📌 Overview of the Case Study
 
